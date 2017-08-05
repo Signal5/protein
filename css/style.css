@@ -1,0 +1,1515 @@
+#banner-336x300,
+#banner-120x600,
+#banner-728x90{
+    margin: 0;
+}
+
+
+
+/**********************
+*****banner-336x300****
+***********************/
+
+#banner-336x300{
+    height: 300px;
+    background: url("../img/336x300/bigbg.png") center center no-repeat;
+}
+
+
+#banner-336x300 #girl{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    
+    animation: 2s girl336 ease 0s forwards;
+    -webkit-animation: 2s girl336 ease 0s forwards;
+    -moz-animation: 2s girl336 ease 0s forwards;
+    -o-animation: 2s girl336 ease 0s forwards;
+}
+
+#banner-336x300 #leaf{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+
+    opacity: 0;
+    animation: 2s leaf336 ease 2s forwards;
+    -webkit-animation: 2s leaf336 ease 2s forwards;
+    -moz-animation: 2s leaf336 ease 2s forwards;
+    -o-animation: 2s leaf336 ease 2s forwards;
+}
+
+
+#banner-336x300 #bg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    
+    opacity: 0;
+    animation: 2s scale ease 0s forwards;
+    -webkit-animation: 2s scale ease 0s forwards;
+    -moz-animation: 2s scale ease 0s forwards;
+    -o-animation: 2s scale ease 0s forwards; 
+}
+
+#banner-336x300 #protein{
+    position: absolute;
+    top: 158px;
+    left: 65px;
+    z-index: 0;
+
+    opacity: 0;
+    animation: 2s bottom336 ease 3s forwards;
+    -webkit-animation: 2s bottom336 ease 3s forwards;
+    -moz-animation: 2s bottom336 ease 3s forwards;
+    -o-animation: 2s bottom336 ease 3s forwards; 
+}
+
+
+
+#banner-336x300 h1{
+    
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 31px;
+    left: 50px;
+    color: #d12e2e;
+    font-size: 44px;
+    line-height: 36px;
+    font-weight: bold;
+    
+    opacity: 0;
+    animation: 2s lefth1336 ease 0s forwards;
+    -webkit-animation: 2s lefth1336 ease 0s forwards;
+    -moz-animation: 2s lefth1336 ease 0s forwards;
+    -o-animation: 2s lefth1336 ease 0s forwards;
+    -webkit-animation-delay: 1.5s;  /*Safari 4.0 - 8.0 */
+    animation-delay: 1.5s
+        
+}
+
+
+#banner-336x300 h2{
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2c4302;
+    position: absolute;
+    top: 70px;
+    left: 35px;
+    
+    opacity: 0;
+    animation: 2s lefth2336 ease 0s forwards;
+    -webkit-animation: 2s lefth2336 ease 0s forwards;
+    -moz-animation: 2s lefth2336 ease 0s forwards;
+    -o-animation: 2s lefth2336 ease 0s forwards;
+    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s
+}
+
+
+#banner-336x300 h4{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #f8f79b;
+    font-size: 12px;
+    text-decoration: none;
+    bottom: 5px;
+    left: 29px;
+    z-index: 2;
+    
+    opacity: 0;
+    animation: 2s lefth2336 ease 0s forwards;
+    -webkit-animation: 2s lefth2336 ease 0s forwards;
+    -moz-animation: 2s lefth2336 ease 0s forwards;
+    -o-animation: 2s lefth2336 ease 0s forwards;
+    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s
+}
+
+#banner-336x300 #sale{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    width: 77px;
+    height: 77px;
+    border: 4px solid #d12e2e;
+    border-radius: 50%;
+    padding-top: 21px;
+    top: 115px;
+    left: 12px;
+    
+    
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa5ff+0,bc3987+100 */
+    background: rgb(237, 73, 73); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,165,255,1) 0%, rgba(237, 73, 73) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,165,255,1) 0%,rgba(237, 73, 73) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,165,255,1) 0%,rgba(237, 73, 73) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa5ff', endColorstr='#bc3987',GradientType=0 ); /* IE6-9 */
+    
+    opacity: 0;
+   
+    
+    animation: 4s s-scale336 6s linear infinite;
+    -webkit-animation: 4s s-scale336 6s linear infinite;
+    -o-animation: 4s s-scale336 6s linear infinite;
+    -moz-animation: 4s s-scale336 6s linear infinite;
+    
+}
+
+span{
+
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    color: #333;
+    font-weight: bold;
+    background: #e5e366;
+    border-radius: 3px;
+    padding: 0 20px;
+    height: 35px;
+    line-height: 34px;
+    font-size: 20px;
+    z-index: 2;
+    position: absolute;
+    top: 237px;
+    left: 48px;
+    letter-spacing: 1px;
+    
+    opacity: 0;
+    animation: 2s span336 ease 5s forwards;
+    -webkit-animation: 2s span336 ease 5s forwards;
+    -moz-animation: 2s span336 ease 5s forwards;
+    -o-animation: 2s span336 ease 5s forwards;
+    
+}
+
+
+
+
+/**********************
+*****animáció-336x300****
+***********************/
+
+@keyframes girl336 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+    }
+}
+@-webkit-keyframes girl336 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+    }
+}
+@-moz-keyframes girl336 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+    }
+}
+@-o-keyframes girl336 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+    }
+}
+
+
+@keyframes leaf336 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes leaf336 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes leaf336 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+        opacity: 1;
+    }
+}
+@-o-keyframes leaf336 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes bottom336 {
+    from {
+        top: 350px;
+    }
+    to {
+        top: 158px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes bottom336 {
+    from {
+        top: 350px;
+    }
+    to {
+        top: 158px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes bottom336 {
+    from {
+        top: 350px;
+    }
+    to {
+        top: 158px;
+        opacity: 1;
+    }
+}
+@-o-keyframes bottom336 {
+    from {
+        top: 350px;
+    }
+    to {
+        top: 158px;
+        opacity: 1;
+    }
+}
+
+
+
+@-webkit-keyframes s-scale336 {
+    0%{ opacity: 1; -webkit-transform:  scale(0.5);}
+    25%{  opacity: 1; -webkit-transform:  scale(0.9);}
+    50%{ opacity: 1; -webkit-transform:  scale(0.9);}
+    75%{ opacity: 1; -webkit-transform:  scale(0.9);}
+    100%{ opacity: 1; -webkit-transform:  scale(0.5);}
+
+}
+@-o-keyframes s-scale336 {
+    0%{ opacity: 1; -webkit-transform:  scale(0.5);}
+    25%{  opacity: 0.7; -webkit-transform:  scale(0.9);}
+    50%{ opacity: 0.7; -webkit-transform:  scale(0.9);}
+    75%{ opacity: 0.7; -webkit-transform:  scale(0.9);}
+    100%{ opacity: 1; -webkit-transform:  scale(0.5);}
+}
+@-moz-keyframes s-scale336 {
+    0%{ opacity: 1; -webkit-transform:  scale(0.5);}
+    25%{  opacity: 0.7; -webkit-transform:  scale(0.9);}
+    50%{ opacity: 0.7; -webkit-transform:  scale(0.9);}
+    75%{ opacity: 0.7; -webkit-transform:  scale(0.9);}
+    100%{ opacity: 1; -webkit-transform:  scale(0.5);}
+}
+@keyframes s-scale336 {
+    0%{ opacity: 1; -webkit-transform:  scale(0.5);}
+    25%{  opacity: 0.7; -webkit-transform:  scale(0.9);}
+    50%{ opacity: 0.7; -webkit-transform:  scale(0.9);}
+    75%{ opacity: 0.7; -webkit-transform:  scale(0.9);}
+    100%{ opacity: 1; -webkit-transform:  scale(0.5);}
+}
+
+
+
+
+
+
+@keyframes lefth1336 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 50px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes lefth1336 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 50px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes lefth1336 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 50px;
+        opacity: 1;
+    }
+}
+@-o-keyframes lefth1336 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 50px;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes lefth2336 {
+    from {
+        left: -30px;
+        opacity: 0;
+    }
+    to {
+        left: 35px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes lefth2336 {
+    from {
+        left: -30px;
+        opacity: 0;
+    }
+    to {
+        left: 35px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes lefth2336 {
+    from {
+        left: -30px;
+        opacity: 0;
+    }
+    to {
+        left: 35px;
+        opacity: 1;
+    }
+}
+@-o-keyframes lefth2336 {
+    from {
+        left: -30px;
+        opacity: 0;
+    }
+    to {
+        left: 35px;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes span336 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 45px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes span336 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 45px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes span336 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 45px;
+        opacity: 1;
+    }
+}
+@-o-keyframes span336 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 45px;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+/**********************
+*****banner-120x600****
+***********************/
+
+#banner-120x600{
+    height: 600px;
+    background: url("../img/120x600/bigbg.png") center center no-repeat;
+}
+
+
+#banner-120x600 #girl{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    
+    animation: 2s right120 ease 0s forwards;
+    -webkit-animation: 2s right120 ease 0s forwards;
+    -moz-animation: 2s right120 ease 0s forwards;
+    -o-animation: 2s right120 ease 0s forwards;
+}
+
+
+#banner-120x600 #bg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    
+    animation: 2s bottom120 ease 0s forwards;
+    -webkit-animation: 2s bottom120 ease 0s forwards;
+    -moz-animation: 2s bottom120 ease 0s forwards;
+    -o-animation: 2s bottom120 ease 0s forwards;
+}
+
+
+
+#banner-120x600 h1{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 82px;
+    color: #d12e2e;
+    font-size: 38px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: bold;
+    
+    opacity: 0;
+    animation: 2s lefth1120 ease 0s forwards;
+    -webkit-animation: 2s lefth1120 ease 0s forwards;
+    -moz-animation: 2s lefth1120 ease 0s forwards;
+    -o-animation: 2s lefth1120 ease 0s forwards;
+    -webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1.5s
+}
+
+
+#banner-120x600 h2{
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c4302;
+    position: absolute;
+    top: 130px;
+    text-align: center;
+    line-height: 24px;
+    
+    opacity: 0;
+    animation: 2s lefth2120 ease 0s forwards;
+    -webkit-animation: 2s lefth2120 ease 0s forwards;
+    -moz-animation: 2s lefth2120 ease 0s forwards;
+    -o-animation: 2s lefth2120 ease 0s forwards;
+    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s
+}
+
+#banner-120x600 #leaf{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+
+    opacity: 0;
+    animation: 2s leaf120 ease 2s forwards;
+    -webkit-animation: 2s leaf120 ease 2s forwards;
+    -moz-animation: 2s leaf120 ease 2s forwards;
+    -o-animation: 2s leaf120 ease 2s forwards;
+}
+
+
+#banner-120x600 span{
+
+    top: 342px;
+    left: 5px;
+    
+
+    opacity: 0;
+    animation: 2s span120 ease 5s forwards;
+    -webkit-animation: 2s span120 ease 5s forwards;
+    -moz-animation: 2s span120 ease 5s forwards;
+    -o-animation: 2s span120 ease 5s forwards;
+
+}
+
+
+#banner-120x600 #protein{
+    position: absolute;
+    top: 254px;
+    text-align: center;
+    
+    opacity: 0;
+    animation: 2s protein120 ease 0s forwards;
+    -webkit-animation: 2s protein120 ease 0s forwards;
+    -moz-animation: 2s protein120 ease 0s forwards;
+    -o-animation: 2s protein120 ease 0s forwards;
+    -webkit-animation-delay: 4.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 4.5s
+}
+
+
+
+#banner-120x600 #sale{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border: 4px solid #d12e2e;
+    border-radius: 50%;
+    padding-top: 21px;
+    top: 165px;
+    left: 21px;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa5ff+0,bc3987+100 */
+    background: rgb(237, 73, 73); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,165,255,1) 0%, rgba(237, 73, 73) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,165,255,1) 0%,rgba(237, 73, 73) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,165,255,1) 0%,rgba(237, 73, 73) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa5ff', endColorstr='#bc3987',GradientType=0 ); /* IE6-9 */
+
+    opacity: 0;
+   
+
+    animation: 4s s-scale336 6s linear infinite;
+    -webkit-animation: 4s s-scale336 6s linear infinite;
+    -o-animation: 4s s-scale336 6s linear infinite;
+    -moz-animation: 4s s-scale336 6s linear infinite;
+}
+
+
+/**********************
+*****animáció-120x600****
+***********************/
+
+@keyframes right120 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+    }
+}
+@-webkit-keyframes right120 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+    }
+}
+@-moz-keyframes right120 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+    }
+}
+@-o-keyframes right120 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+    }
+}
+
+
+
+@keyframes bottom120 {
+    from {
+        bottom: -180px;
+    }
+    to {
+        bottom: 0;
+    }
+}
+@-webkit-keyframes bottom120 {
+    from {
+        bottom: -180px;
+    }
+    to {
+        bottom: 0;
+    }
+}
+@-moz-keyframes bottom120 {
+    from {
+        bottom: -180px;
+    }
+    to {
+        bottom: 0;
+    }
+}
+@-o-keyframes bottom120 {
+    from {
+        bottom: -180px;
+    }
+    to {
+        bottom: 0;
+    }
+}
+
+
+@keyframes lefth1120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 15px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes lefth1120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 15px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes lefth1120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 15px;
+        opacity: 1;
+    }
+}
+@-o-keyframes lefth1120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 15px;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes lefth2120 {
+    from {
+        left: -30px;
+        opacity: 0;
+    }
+    to {
+        left: 5px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes lefth2120 {
+    from {
+        left: -30px;
+        opacity: 0;
+    }
+    to {
+        left: 5px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes lefth2120 {
+    from {
+        left: -30px;
+        opacity: 0;
+    }
+    to {
+        left: 5px;
+        opacity: 1;
+    }
+}
+@-o-keyframes lefth2120 {
+    from {
+        left: -30px;
+        opacity: 0;
+    }
+    to {
+        left: 5px;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes span120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 5px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes span120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 5px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes span120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 5px;
+        opacity: 1;
+    }
+}
+@-o-keyframes span120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 5px;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes leaf120 {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes leaf120 {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes leaf120 {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+@-o-keyframes leaf120 {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes protein120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 24px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes protein120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 24px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes protein120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 24px;
+        opacity: 1;
+    }
+}
+@-o-keyframes protein120 {
+    from {
+        left: -50px;
+        opacity: 0;
+    }
+    to {
+        left: 24px;
+        opacity: 1;
+    }
+}
+
+
+
+
+/**********************
+*****banner-728x90****
+***********************/
+
+#banner-728x90{
+    height: 90px;
+    background: url("../img/728x90/bigbg.png") center center no-repeat;
+}
+
+
+
+#banner-728x90 #leaf{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+
+    opacity: 0;
+    animation: 2s leaf728 ease 2s forwards;
+    -webkit-animation: 2s leaf728 ease 2s forwards;
+    -moz-animation: 2s leaf728 ease 2s forwards;
+    -o-animation: 2s leaf728 ease 2s forwards;
+}
+
+
+#banner-728x90 #bg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+
+    opacity: 0;
+    animation: 2s scale ease 0s forwards;
+    -webkit-animation: 2s scale ease 0s forwards;
+    -moz-animation: 2s scale ease 0s forwards;
+    -o-animation: 2s scale ease 0s forwards; 
+}
+
+#banner-728x90 #protein{
+    position: absolute;
+    bottom: 0;
+    left: 452px;
+    z-index: 2;
+
+    opacity: 0;
+    animation: 2s bottom336 ease 3s forwards;
+    -webkit-animation: 2s bottom336 ease 3s forwards;
+    -moz-animation: 2s bottom336 ease 3s forwards;
+    -o-animation: 2s bottom336 ease 3s forwards; 
+}
+
+
+#banner-728x90 #girl{
+    position: absolute;
+    left: 49px;
+    bottom: 0;
+    z-index: 2;
+    
+    
+    animation: 2s left ease 0s forwards;
+    -webkit-animation: 2s left ease 0s forwards;
+    -moz-animation: 2s left ease 0s forwards;
+    -o-animation: 2s left ease 0s forwards;
+}
+
+
+#banner-728x90 h1{
+
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 15px;
+    left: 230px;
+    color: #d12e2e;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bold;
+
+    opacity: 0;
+    animation: 2s lefth1728 ease 0s forwards;
+    -webkit-animation: 2s lefth1728 ease 0s forwards;
+    -moz-animation: 2s lefth1728 ease 0s forwards;
+    -o-animation: 2s lefth1728 ease 0s forwards;
+    -webkit-animation-delay: 1.5s;  /*Safari 4.0 - 8.0 */
+    animation-delay: 1.5s
+
+}
+
+
+#banner-728x90 h2{
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #2c4302;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+
+    opacity: 0;
+    animation: 2s lefth278 ease 0s forwards;
+    -webkit-animation: 2s lefth278 ease 0s forwards;
+    -moz-animation: 2s lefth278 ease 0s forwards;
+    -o-animation: 2s lefth278 ease 0s forwards;
+    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s
+}
+
+
+#banner-728x90 h4{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #f8f79b;
+    font-size: 12px;
+    text-decoration: none;
+    bottom: 5px;
+    right: 22px;
+    z-index: 4;
+
+    opacity: 0;
+    animation: 2s left2 ease 0s forwards;
+    -webkit-animation: 2s left2 ease 0s forwards;
+    -moz-animation: 2s left2 ease 0s forwards;
+    -o-animation: 2s left2 ease 0s forwards;
+    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s
+}
+
+
+
+#banner-728x90 span{
+
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    color: #333;
+    font-weight: bold;
+    background: #e5e366;
+    border-radius: 3px;
+    padding: 0 20px;
+    height: 35px;
+    line-height: 34px;
+    font-size: 20px;
+    z-index: 2;
+    position: absolute;
+    
+    left: 599px;
+    letter-spacing: 1px;
+
+    opacity: 0;
+    animation: 2s span728 ease 5s forwards;
+    -webkit-animation: 2s span728 ease 5s forwards;
+    -moz-animation: 2s span728 ease 5s forwards;
+    -o-animation: 2s span728 ease 5s forwards;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#banner-728x90 #protein{
+    position: absolute;
+    left: 452px;
+    bottom: 0;
+
+
+    opacity: 0;
+    animation: 2s protein728 ease 0s forwards;
+    -webkit-animation: 2s protein728 ease 0s forwards;
+    -moz-animation: 2s protein728 ease 0s forwards;
+    -o-animation: 2s protein728 ease 0s forwards;
+    -webkit-animation-delay: 4.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 4.5s
+}
+
+
+
+#banner-728x90 #sale{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    width: 67px;
+    height: 67px;
+    border: 4px solid #d12e2e;
+    border-radius: 50%;
+    padding-top: 19px;
+    top: 10px;
+    left: 400px;
+    z-index: 3;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa5ff+0,bc3987+100 */
+    background: rgb(237, 73, 73); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,165,255,1) 0%, rgba(237, 73, 73) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,165,255,1) 0%,rgba(237, 73, 73) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,165,255,1) 0%,rgba(237, 73, 73) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa5ff', endColorstr='#bc3987',GradientType=0 ); /* IE6-9 */
+
+    opacity: 0;
+    
+
+    animation: 4s s-scale336 6s linear infinite;
+    -webkit-animation: 4s s-scale336 6s linear infinite;
+    -o-animation: 4s s-scale336 6s linear infinite;
+    -moz-animation: 4s s-scale336 6s linear infinite;
+}
+
+
+/**********************
+*****animáció-728x90****
+***********************/
+
+
+@keyframes leaf728 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes leaf728 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes leaf728 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+        opacity: 1;
+    }
+}
+@-o-keyframes leaf728 {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0px;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes left {
+    0% {
+        left: -100px;
+    }
+
+    100%{
+        left: 49px;
+    }
+}
+@-webkit-keyframes left {
+   0% {
+        left: -100px;
+    }
+    
+    
+    100%{
+        left: 49px;
+    }
+}
+
+@-moz-keyframes left {
+    from {
+        left: -100px;
+    }
+    to {
+        left: 49px;
+    }
+}
+@-o-keyframes left {
+    from {
+        left: -100px;
+    }
+    to {
+        left: 49px;
+    }
+}
+
+
+@keyframes lefth1728 {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 12px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes lefth1728 {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 12px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes lefth1728 {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 12px;
+        opacity: 1;
+    }
+}
+@-o-keyframes lefth1728 {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 12px;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes lefth278 {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 55px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes lefth278 {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 55px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes lefth278 {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 55px;
+        opacity: 1;
+    }
+}
+@-o-keyframes lefth278 {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 55px;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes left2 {
+    from {
+        right: -50;
+        opacity: 0;
+    }
+    to {
+        right: 8px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes left2 {
+    from {
+        right: -50;
+        opacity: 0;
+    }
+    to {
+        right: 8px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes left2 {
+    from {
+        right: -50;
+        opacity: 0;
+    }
+    to {
+        right: 8px;
+        opacity: 1;
+    }
+}
+@-o-keyframes left2 {
+    from {
+        right: -50;
+        opacity: 0;
+    }
+    to {
+        right: 8px;
+        opacity: 1;
+    }
+}
+
+
+@keyframes protein728 {
+    from {
+        bottom: -50px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes protein728 {
+    from {
+        bottom: -50px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+@-moz-keyframes protein728 {
+    from {
+        bottom: -50px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+@-o-keyframes protein728 {
+    from {
+        bottom: -50px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+
+
+
+@keyframes right {
+    from {
+        right: -180px;
+    }
+    to {
+        right: 0px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes right {
+    from {
+        right: -180px;
+    }
+    to {
+        right: 0px;
+    }
+}
+@-moz-keyframes right {
+    from {
+        right: -180px;
+    }
+    to {
+        right: 0px;
+    }
+}
+@-o-keyframes right {
+    from {
+        right: -180px;
+    }
+    to {
+        right: 0px;
+    }
+}
+
+
+@keyframes span728 {
+    from {
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        top: 25px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes span728 {
+    from {
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        top: 25px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes span728 {
+    from {
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        top: 25px;
+        opacity: 1;
+    }
+}
+@-o-keyframes span728 {
+    from {
+        top: -50px;
+        opacity: 0;
+    }
+    to {
+        top: 25px;
+        opacity: 1;
+    }
+}
+
+
+
+
+@keyframes scale {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes scale {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@-moz-keyframes scale {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@-o-keyframes scale {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
